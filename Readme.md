@@ -8,8 +8,8 @@ This code takes image coordinate (x,y)​ as input, and regresses/outputs the co
 
 #### The following 5 methods are compared:
 
-- **none**:   Standard linear regression network (no mapping of input coordinate $(x,y)$).
-- **basic**:  Basic Fourier feature mappings of (x,y​）.
+- **none**:   Standard linear regression network (no mapping of input coordinate (x,y)​).
+- **basic**:  Basic Fourier feature mappings of (x,y​).
 - **gauss_1**: Gaussian Fourier feature mappings of (x,y)​ with scale=1.
 - **gauss_10**: Gaussian Fourier feature mappings of (x,y)​ with scale=10.
 - **gauss_100**: Gaussian Fourier feature mappings of (x,y)​ with scale=100.
