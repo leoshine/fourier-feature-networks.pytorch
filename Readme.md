@@ -2,7 +2,15 @@
 
 
 
-This is a simple PyTorch implementation of Fourier Feature Networks ([this paper](https://arxiv.org/abs/2006.10739)), translated from the officially released [code](https://github.com/tancik/fourier-feature-networks/blob/master/Demo.ipynb).
+This is a simple PyTorch implementation of Fourier Feature Networks, translated from the officially released [code](https://github.com/tancik/fourier-feature-networks/blob/master/Demo.ipynb).
+
+For more information, please refer to:
+
+Tancik *et al*. **Fourier Features Let Networks Learn High Frequency Functions in Low Dimensional Domains**, NeurIPS 2020.   ([Paper](https://arxiv.org/abs/2006.10739)|[Project](https://github.com/tancik/fourier-feature-networks))
+
+
+
+### Visualization of results
 
 This code takes image coordinate (x,y)​ as input, and regresses/outputs the corresponding RGB pixel values.
 
@@ -13,8 +21,6 @@ This code takes image coordinate (x,y)​ as input, and regresses/outputs the co
 - **gauss_1**: Gaussian Fourier feature mappings of (x,y)​ with scale=1.
 - **gauss_10**: Gaussian Fourier feature mappings of (x,y)​ with scale=10.
 - **gauss_100**: Gaussian Fourier feature mappings of (x,y)​ with scale=100.
-
-#### Visualization of results
 
 | Original image                                               | none                                                         | basic                                                        |
 | ------------------------------------------------------------ | ------------------------------------------------------------ | ------------------------------------------------------------ |
